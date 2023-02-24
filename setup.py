@@ -15,7 +15,8 @@ setup(
     install_requires=[
         "scikit-learn>=0.24.2",
         #"torch>=1.10.2",
-        "torch@https://download.pytorch.org/whl/cu111/torch-1.10.1%2Bcu111-cp39-cp39-linux_x86_64.whl",
+        #"torch@https://download.pytorch.org/whl/cu111/torch-1.10.1%2Bcu111-cp39-cp39-linux_x86_64.whl",
+        "torch@http://download.pytorch.org/whl/cpu/torch-1.7.0%2Bcpu-cp38-cp38-linux_x86_64.whl",
         "protobuf==3.19.5",
         "networkx>=2.0",
         # "nltk>=3.6.7",
